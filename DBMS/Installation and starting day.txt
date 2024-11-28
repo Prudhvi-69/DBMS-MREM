@@ -1,0 +1,74 @@
+After installation process is done(SQL, SSMS), connect to the DB.
+
+Before doing any operation/query, click on new QUERY option in
+menu bar.
+
+Then create a new database.
+Syntax : 
+					create database name_of_DB;
+EX: 
+					create database Batch1;
+
+**After the database is created if you want to work inside the database, you need to use the keyword and query
+
+Syntax : 
+					use Database_name;
+ex: 	
+					use Batch1;
+
+**Now once you have mentioned that you are going to use the database, you can create a new table to insert the data and store the data/perform oeprations on data/modifications/deletion/retrieval of data.
+
+Syntax : 
+					create table name_of_the_table(columns(attributes),.....);
+Ex:
+					create table Data(Name varchar(20), ID int, gender varchar(1));
+
+**After executing each query, refresh the database panel/Object Explorer. Then you can see the changes you have made.
+
+Then : 11:22 27-11-2024
+
+Be back in 10, i.e., by 11.34
+
+Now : 11:39 27-11-2024
+
+
+
+
+
+//opening the database
+use Batch1;
+//creating the table with columns/attributes 
+create table Candidate(name varchar(68),CID int);
+//inserting values into the table
+insert into Candidate values('Renuka',25);
+//retrieving values from the table
+select * from Candidate;
+
+
+//Inserting multiple rows at once : 
+**It can be done with a separator operator ,
+
+
+insert into Candidate values('Harika',55),('Shubhangi',31);
+
+
+H_W / R_W: 
+
+
+0. Finish the installation process totally (do not have any pending process in the installation process).
+*** The only you can do the creation of the database and do the home/hostel/rooom work properly without any deviations...
+
+
+1. Create a Database with your class name.
+2. Create a Table with name Data
+3. Insert atleast 50 values into it.
+4. (Those with most number of records will get a reward).
+5. Anyone missing to do the work, will be facing serious
+    consequences.
+
+
+
+
+
+
+

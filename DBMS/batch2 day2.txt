@@ -1,0 +1,96 @@
+1. search Microsoft SQL Server Download
+2. Download express edition from the official MS website.
+3. Start the installation process
+4. Select "BASIC" version of SQL.
+5. Click on "Connect Now" for checking if the installation is successful.
+6. 1 row(s) affected.(then it is successfull).
+7. Click on "Install SSMS".
+8. Download SSMS and install it.
+9. After the installation, open SQL Server Management Studio
+10. Select the name of the Server in SSMS.
+11. Check the box for trust server certificate.
+12. Click on connect.
+(Now you are ready to use the Database with SQL)
+
+
+
+
+
+After the installation process, create a database to work on.
+
+Syntax : 
+						create database database_name;
+Ex:
+						create database Batch2;
+
+**After the dataabse is created, if you want to work inside the Database, use another query, with the help of the keyword
+"use"
+
+Syntax:
+						use database_name;
+Ex:
+						use Batch2;
+	
+
+
+
+
+
+
+H_W/R_W
+
+1. Create a database with your class name
+2. Create a table with a name : Info
+3. Field values has to be : Name, DOB, ID, Gender
+4. Collect and store the values of atleast 50 people.
+5. Those with highest number of records, will get a reward.
+
+
+
+Note : When you open the SSMS, everytime, after clicking on connect, go to menu bar and click on, New Query.
+
+**Only then you can start writing queries to execute on the database, if not there's no way you can work with SQL.
+
+Creating the table inside the database
+
+Syntax : 
+						create table table_name(columns datatypes,,,...);
+Ex:
+					create table ECIC(names char(68),ID int);
+
+Inserting data into the table after creating the table;
+**Insert the values into the table in the same order as they were declared
+Syntax : 
+					insert into table_name values(values.....);
+Ex:
+					insert into ECIC values('Priya', 16);
+
+Inserting mulitple rows at once in one query : 
+
+Syntax : 
+		insert into table_name avlues(values1),(values2),(values3).....();
+Ex:
+		insert into ECE_IT_DS_CS values('Sumana',10),('Sai',420),('Sindhu',30),('Keshavulu',120);
+
+
+
+
+
+
+
+if boys!=false:
+	stay.silent(2)
+elif !boys != false:
+	stay.silent(2)
+else:
+	youCan.talk()
+
+//Applicable for all students
+
+
+
+
+
+
+
+

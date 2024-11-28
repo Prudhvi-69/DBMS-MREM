@@ -1,0 +1,61 @@
+create a table with columns as 
+
+	name
+	ID
+	date of birth   -> DATE
+	gender
+
+  
+DATE datatype : used to store the date in a format, where it is going to have the date value as : 
+YYYY-MM-DD.
+
+Ex : 
+						create table B2(Name varchar(20), DOB DATE);
+
+Inserting values into DATE :
+		
+				insert into B2 values('Neha', '2024-11-27');
+		
+
+Data Definition Language Commands : the commands under this language are going to effect the structure/schema of the Database but not the data in it.
+
+Commands : 
+
+	create
+	alter
+	truncate
+	drop
+	rename(not a command, but a procedure)
+
+
+
+
+
+
+truncate : it is going to delete the entire table data, but keeps the structure/schema intact.
+Column names, table names, constraints will be kept as it is. 
+Ex : 				truncate table B2;
+
+drop : it will work on 2 scenarios. 
+	for columns : it is going to delete the entire column including it's name and all the values in it.
+
+	for table : it is going to delete the entire table data, constraints, column names, table name.
+**Nothing will be there in the database related to something you have droppped
+
+
+
+Data Manipulation Language commands : these commands are going to update, delete, change the data inside the table.
+
+	insert
+	update
+	delete
+
+ 
+Data Query Language command : 
+
+	select
+
+
+'Prakash'  -> 'Rakash' -> 'Prakash'
+
+

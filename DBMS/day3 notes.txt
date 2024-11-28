@@ -1,0 +1,93 @@
+DATE datatype in SQL: used to include the date into the table and in a specific format.
+synta	x : 
+						create table info(column DATE);
+**The format of isnerting the date input has to be 
+---> ' YYYY-MM-DD ' inside single quotes.
+		
+	insert into info values('2003-10-28');
+													YYYY-MM-DD
+
+use Batch2;
+
+create table info(peru varchar(20), ID int,
+DOB DATE, gender char(1));
+
+insert into info values('ashish',11,'2003-06-17','M');
+
+select * from info;
+
+
+
+
+Data Defination Language : These commands works with the structure of the database but not the data.
+
+
+It will include : 
+	create
+	alter
+	drop
+	truncate
+	rename
+
+
+
+
+	drop
+	truncate
+	rename
+
+to delete a column:
+
+		drop table_name column_name;
+
+to delete a table and its structure : 
+syntax:
+		drop table table_name;
+
+to delete the data inside the table but not the structure:
+syntax:
+		truncate table table_name;
+
+select * from table_name;
+
+delete a specific column with the help of alter:
+
+	alter table tabble_name drop column column_name;
+
+adding a new column with the help of alter:
+	
+	alter table table_name add column_name datatype;		
+
+
+
+
+Data Manipulation Language :
+
+insert
+update
+delete
+
+
+DQL : Data Query Language :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
