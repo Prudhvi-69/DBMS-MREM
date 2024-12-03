@@ -1,0 +1,97 @@
+Where are you going??
+
+You both?
+
+They are going for water
+
+What do you want?
+Go and sitttttttttttt
+
+SHUT UP AND SITTTT
+LAST BENCHHH
+
+Good Morning Everyone........................................
+
+No more will come to the class today??
+
+Only these many?
+
+Then okay...!!
+
+If not it will be a serious class
+SERIOUSSS
+
+Is she our class????
+
+Outsiderrrr
+Going
+Bye byeeeeee
+
+
+
+
+
+
+
+
+Let's start the class by doing some work...
+
+
+Create a table with 1 Primary key, 2 Unique keys and 3 Not Null constraints and insert values into the table..
+
+
+Start doing itttt...................
+
+09:49 30-11-2024
+Finish it by 10.00.30(seconds) 30-11-2024
+
+Start doing it........
+
+
+Order by : this is a clause used to sort the data in the output console when you use select command.
+
+**The default order for sorting will be ascending order.
+** You need to mention the column by which you want to sort the output.
+
+**If you want the data in the output console to be sorted in descending order, mention the keyword "desc" at the end.
+
+** This sorting will work on int,char,varchar,date.
+
+
+NOT NULL : This constraint is going to restrict from keeping any column value NULL/empty.
+
+**When you mention some column with NOT NULL, you must give some value in it, if you dont, you'll get error.
+
+**NOT NULL constraint allows duplicate values.
+
+**
+
+
+**Check** (Another constraint) : it is going to put a condition on the input, while inserting the value with insert command, if the value is not meeting the constraint set by "check" it is going to give you error.
+
+** Usually used for taking inputs when you have limted values.
+Ex:
+			marks int check (marks between 0 and 100);
+Ex:
+			gender char(1) check (gender in ('f','m','o'));
+
+**This is going to check whether the input VALID or NOT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

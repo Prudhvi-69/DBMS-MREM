@@ -1,0 +1,87 @@
+Tell your friends in other batch to come here
+
+IT,ECE,CS,DS
+
+(If you have friends in those depts) tell them to come to 305?
+This is 304-305 only right??
+
+For CSI, CSM, CSE also have to be in this class for today.
+
+Call/text to others.....
+Today full day class in this room only for both batches.
+
+SIT
+
+
+
+
+
+As we are having both the batches today, i am not intending to take a full day class, instead, we can work on creating relations between multiple tables.
+
+We'll try working on different databases in addition to that, we can create and take a huge amount of data to work.
+
+
+
+
+
+
+
+We can start with a concept that is one of important one in building relationships between two _____.
+
+
+
+
+It is a Primary key but not in the current table.
+
+It is a Primary key but there can be multiple in one table.
+
+
+
+
+
+Foreign Key : It is a constraint used to establish the connection between two tables.
+
+**Every foreign key must be a Primary key in some table with which you want to build the relationship.
+
+**It can present multiple times in one table where it is not the Primary key but a Foreign Key.(You can have multiple foreign keys in the table where you are creating the relationship).
+
+**Before creating a constraint with Foreign Key, always remember to create a table with the same name must be Primary key in some table.
+
+
+Syntax :
+
+		foreign key (current_table foreignKEY ID) references 
+						parentTable.parentPrimaryKey;
+
+
+1. create members table
+2. insert data into that table
+3. create books table
+4. insert data into that table
+5. follow the below code : 
+
+CREATE TABLE Borrowings (
+    Borrowing_ID INT PRIMARY KEY,
+    Member_ID INT NOT NULL,
+    Book_ID INT NOT NULL,
+    Borrow_Date DATE NOT NULL,
+    Return_Date DATE DEFAULT NULL,
+    FOREIGN KEY (Member_ID) REFERENCES Members(Member_ID),
+    FOREIGN KEY (Book_ID) REFERENCES Books(Book_ID)
+);
+
+
+
+
+1. How many books one person has borrowed
+2. How many people have borrowed one specific book
+
+
+
+
+
+
+
+
+
+

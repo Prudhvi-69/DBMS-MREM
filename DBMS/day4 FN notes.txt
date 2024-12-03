@@ -1,0 +1,101 @@
+Data Query Language : it is used to retrieve the data from the database/tables.
+
+It is not going to affect the database schema or the data inside it.
+
+That is the reason it is not going to be considered either under DDL, or DML. So it is coming under DQL.
+
+**There is only one command in DQL, i.e., select.
+
+Syntax : 
+ 
+
+
+/*Renaming one column in the output console using an alias*/
+				select Name,DOB,Roll as ID from B3;
+/*Renaming all columns in the output console using an alias*/
+				select Name as peru, DOB as date, Roll as ID from B3;
+
+
+
+
+Constraints : Constraints in SQL are to put a specific condition on the table/database, to restrict the user from giving the duplicated values, or the data based on rules/conditions.
+
+Unique : it is a key constraint, where you must need to give the input specified by this constraint, has to be UNIQUE in input.
+** It will not tolerate any duplicate values.
+
+**If you are trying to insert the duplicate values it is going to give you the error message : 
+---- Violation of UNIQUE KEY constraint
+---- Cannot insert duplicate key in object (table_name)
+---- The duplicate value is (value)
+
+EX: 
+			create table MEI(name varchar(20),ID int unique);
+
+**Unique key constraint allows NULL values also(when you dont enter any value in that specific column, it'll be considere as NULL until you enter any value).
+** There can be multiple UNIQUE KEY constraints in one table.
+
+
+
+Primary Key : it is a key constraint, where you must need to give the input specified by this constraint, has to be UNIQUE in input.
+** It will not tolerate any duplicate values.
+** Also it will not tolerate any NULL values.
+** There has to be only ONE primary key in the table.
+
+
+
+
+create table IME(name varchar(20),ID int primary key, mobile char(10) UNIQUE, gender char(1));
+
+insert into IME values('Bhanu',39,'8745205652','f');
+insert into IME values('Tushar',28,'4145205652','m');
+insert into IME values('Akshith',8,'874585252','m');
+
+
+
+
+
+
+Error message when you are not giving any value in Primary key field: 
+
+Cannot insert the value NULL into column 'ID', table 'Batch1.IME'; column does not allow nulls. INSERT fails.
+
+
+
+
+Now : 11:11 29-11-2024
+Be sure be back by 11:21 29-11-2024
+
+
+
+
+
+
+
+
+
+
+NOT NULL : This is a constraint where it is going to follow the rules of always keeping a value in the column.
+If you are not entering any value in a NOT NULL constraint column, it is going to give you error message.
+
+**NOT NULL can allow duplicate values.
+
+
+Error when you dont give any value in the NOT NULL column : 
+
+Cannot insert the value NULL into column 'name', table 'Batch1.dbo.EMI'; column does not allow nulls. INSERT fails.
+
+
+
+
+Default : it is going to put a default value in the column of any row you apply it to, only when you dont provide any value inside that column for that specific row.
+
+
+
+
+
+
+
+
+
+
+

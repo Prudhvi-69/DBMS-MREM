@@ -1,0 +1,48 @@
+Advance Happy Birthday *********
+
+
+
+
+
+
+https://github.com/Prudhvi-69/DBMS-MREM
+
+
+
+**CHECK**  : it is going to put a constraint on the column while giving input.
+
+** It can be used on any column.
+
+Check : 
+
+IN(membership)
+=,!=, <, >, <=, >= (Comparison Ops)
+Between(Range)
+Like(similarity)
+
+
+
+
+
+between 
+in
+not in
+like
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

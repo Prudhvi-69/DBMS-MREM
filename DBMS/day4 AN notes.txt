@@ -1,0 +1,50 @@
+Data Query Language : it is containing only one command in it, known as... SELECT.
+
+*It is going to retrieve the data from the database/tables
+*It is not going under either DDL, or DML commands.
+
+**Select command can be used under 2 scenarios
+1. When  you want to retrieve every column data as it is, you use the default column names.
+2. When you want to change the names of the columns which you are going to retrieve from the table, you can provide an alias with the help of a keyword "as". 
+
+
+Syntax : 
+				select resulting_columns from table_name (conditions)*
+
+
+where clause
+
+
+
+CONSTRAINTS : 
+
+
+UNIQUE : it is a constraint to be kept on the columns to keep the data without any duplicate values.
+
+**If you are trying to give the duplicate data, it will give an error message....
+
+
+Error message when you are giving a duplicate value under UNIQUE
+
+Violation of UNIQUE KEY constraint.
+Cannot insert duplicate key in object 'table.IDCE'. 
+The duplicate key value is (value).
+
+**Unique key allows NULL value, when you dont mention any value for a specific Unique key constraint column.
+
+**Unique key will not allow a secondary NULL value
+
+
+Primary key : it is similar to Unique key, but it will remove the disadvatanges from Unique, where Unique will allow NULL values and can be present multiple times in one table, whereas, the Primary Key has to be present only once and it will not tolerate any NULL values.
+
+**You need to mention the Primary key while creating the table itself, you cannot revoke a primary key and create a new primary key.
+
+Syntax : 
+		create table table_name(column type primary key);
+
+
+
+
+
+
+
