@@ -1,0 +1,75 @@
+Serial Number : Auto Increment - MySQL
+
+									Identity(start, difference) - MS SQL
+
+
+
+Order by : it is a clause, used to sort the data at the output console.
+
+The original data will be present as it is inside the database, but when you retrieve the data using order by, the outout console will contain the sorted data but not the Database.
+
+**It is for User Easy Viewing Convinience
+
+Syntax : 
+					order by column_name; 
+
+** You must always use order by only when you use the select command.
+
+** The default sorting order will be ascending order fort any column.
+** If you want the data in the descending order, mention the keyword "desc" at the end of the order by clause.
+
+
+
+
+
+Identity : It is somthing similar to a constraint, but it will get auto incremented everytime when you insert a new record.
+
+As in MS SQL, the Identity constraint will take 2 parameters. 
+1st one will be the starting point,
+2nd one will be the difference between every 2 values.
+
+Syntax : 
+						identity(start, difference/incremental_value) 
+
+Ex:
+			serial_number int identity (1, 1); 
+** The above statement will increment the serial_number by 1 starting from 1.
+
+Ex:
+			serial_no int identity(5 , 3);
+** The above statement will increment the serial_no by 3 starting from 5.
+
+
+LIKE  : it is used on columns while retrieving data using select command
+to get only the matching data based on the condition by LIKE.
+
+** The "%" symbol in the LIKE will work like the remaining string, and the other part will be the searching pattern.
+
+** When you are searching a pattern at the ending, the syntax will be : 
+		' %[search character/set] '
+		-> In the above case, if you are searching only 1 character, the entire string excluding the last character will be stripped by % symbol and only the last character will be checked by condition.
+
+** When you are searching a pattern at the beginning, the syntax will be:
+		' [search character/set] % '
+		-> In the above case, if you are searching only 1 character, the entire string excluding the last character will be stripped by % symbol and only the first character will be checked by condition.
+
+** When you are searching a pattern in the middle,or when you dont know exactly where to search, the syntax will be :
+		' % [ search character/set] % '
+		-> In the above case, there will be 3 cases,
+	1. If the pattern is found at the beginning, 1st % will be skipped.
+	2. If the pattern is found at the ending, last % will be skipped.
+	3. If the pattern is found in the middle, both will be considered and somwhere in the middle of the string it will be present.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
