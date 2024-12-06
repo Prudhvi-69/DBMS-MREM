@@ -1,0 +1,102 @@
+Create a table with the name : Employees
+Insert multiple columns into it : ID, name, gender, Dept, Salary, Location
+ 
+and find the sum of salaries of all employees in total (not specific to department but sum of all employees in the organisation).
+
+
+
+
+AVG() : it is an aggregare function which will take values from one numerical datatype column and add all of those values and find the average value among all.
+
+** It will work only on numerical datatype columns.
+** It can take only one column's values at a time.
+** It cannot access multiple columns at once.
+** You can use this aggregate function only with group by clause.
+** If you want to put a condition on the output, then you can use the having clause, where it is gonna put a condition after group by is executed.
+
+** Now we are gonna check the avg function in the code..... OKAY...?????
+
+
+NOTE : Always remember, the aggregate functions will return an integer value no matter on how many rows you are performing the operation.
+
+Count -> it will return number of rows
+Sum   -> it will return sum of values from all rows
+Avg    -> it will return avg of values from all rows
+Min    -> it will return smallest value from the column by comparing with all rows
+Max   -> it will return largest value from the column by comparing with all rows
+
+
+
+
+
+min() : it is an aggregate function which will work on multiple rows of a column with numerical datatype.
+
+** First it will take the first value, then compare it with the next value, and continue until the last value in that column.
+
+** And at the end, it returns the lowest/smallest value among all the values in that specific column.
+
+max() : it is an aggregate function which will work on multiple rows of a column with numerical datatype.
+
+** First it will take the first value, then compare it with the next value, and continue until the last value in that column.
+
+** And at the end, it returns the largest/highest value among all the values in that specific column.
+
+
+
+
+
+
+
+
+Create a table with the name : Employees
+Include the columns : Name, ID, Salary, Age, Exp in Years, Level
+
+
+Create another table witht the name : Promotions 
+Include the columns : Promotion_ID, Promoted_Levels, EmpID, Increased_Salary
+
+** Keep the neccesary CONSTRAINTS. 
+
+
+DECIMAL(10,2) : It is a datatype, where it is going to contain decimal values with precision.
+
+** Mostly it will be used when you want accurate data values.
+
+Syntax : 
+			
+			Decimal(base value, precision value) 
+
+** Once you are done writing down, start creating the table and work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

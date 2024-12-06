@@ -1,0 +1,45 @@
+Order by : order by clause is used to sort the data in the output console. 
+
+** It can be applied on to any column in the table.
+
+** The default sorting order would be ascending order.
+
+** When you apply order by on 
+	Integer -> lowest value first, largest value last
+	char     -> A,a will be first, then Z,z will be last	
+	DATE  -> Old date will be first, Latest date will be last
+	
+** When you want to sort based on descending order, you need to use the keyword "desc" after order by.
+
+
+Syntax : for ascending
+				select columns from table order by (oen of the columns);
+
+for descending order
+				select columns from table order by (one of the columns) desc;
+
+
+
+
+Create a table with the name : Employees
+Add the columns : Name, ID, Age, Salary, Dept, Gender, Location
+
+Insert 12 rows into the table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
