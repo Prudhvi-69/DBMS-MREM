@@ -1,0 +1,62 @@
+Good Morning Everyone.......
+
+
+
+
+
+
+
+
+https://github.com/Prudhvi-69/DBMS-MREM
+LIKE : it is something similar to a constraint, but you can use it for retrieving the values from a table.
+
+There are multiple ways in which you can use LIKE.
+
+** It is used to find a specific character pattern inside any character type column.
+
+** It is used inside the select command query, and can be used with where clause.
+
+** LIKE can be used under three scenarios.,
+	-> When you want to search some character/set at the beginning.
+	-> When you want to search some character/set at the ending.
+	-> When you want to search some character/set in the middle.
+
+** Searching at the beginning with LIKE
+	
+Syntax : 
+				select columns from table where LIKE  '[search character] %'
+
+** Searching at the ending with LIKE
+	
+Syntax : 
+			select columns from table where LIKE '% [search character/set]'
+
+** Searching in the middle/when you dont know where it is present
+Syntax : 
+			
+			select columns from table where LIKE '% [search character/set] %'
+
+
+
+Order by clause : this is going to return the table columns in an ordered way based on the condition and the column which you are mentioning.
+
+** Order by can only be used inside a select command, it cannot be used without a select on it's own.
+
+** The default order to display will be ascending, when used with order by clause.
+
+** If you want the columns displayed in descending order, you need to use a keyword known as "desc".
+
+** It will work on any datatype inside the SQL and also DATEs.
+
+
+** Where and order by, are known as filtering and sorting methods in SQL.
+
+** 
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+Create a table with the name college, and include a column Department.
+
+So, there can be multiple people from one department right?
+
+Include the Set of Departments as : CSE, ECE, IT
+
+Insert multiple records into the table and include people from multiple departments be present in any one of those mentioned.
+
+Make sure, every student should belong to any of the Department, so that no one will be left without a Department.
+
+So, inorder to perform these operations and make this work, use neccesary constraints and insert atleast 10 records for easy work flow.
+
+
+
+Aggregate functions : builtin functions which will perform some operation on multiple rows in a table which belongs to one column.
+
+Aggregate functions are :
+	-> count()
+	-> sum()
+	-> avg()
+	-> min()
+	-> max()
+
+** Each function will perform a specific task desgined for it.
+** Each of the functions are going to return a value as output and you need to create an alias to get the result and display at the output console.
+** There is a certain condition and limitations for these aggregate functions, where these functions will not effect the original data inside the table/database. It is for the user, on the output console.
+
+
+
+count() : it is an aggregate function to count the number of rows present in the resulting column based on the retrieving query.
+
+** It always require as alias while displaying the result. The default column when you dont mention any alias will be : (no column name)
+
+syntax : 
+					select resulting_columns, count(counting_column) from
+	table_name condition...
+
+** When you are retrieving data from the table : college, and if you want to get the total count of people from a specific department.
+
+** select count(*) from college where department='dept_name'
+
+
+
+
+
+Question : Retrieve data and count of people from each department, with the help of one Select query.
+
+Solution : 
+select department, count(*) as Total from college group by department;
+
+(Use group by clause)
+
+
+Group by : it is a grouping clause where you want the data in the output console to be grouped under a specific order.
+
+** The advatage of this group by clause is that you can  aggregate functions effectively.
+
+** You can use every aggregate function with the help of group by clause.
+
+** It is used to contain the data in a format where you can group different rows under one specific column.
+
+** Also remember, you can perform group by under one column efficiently.
+
+** Performing group by operation on multiple columns will result in scattering of data.
+
+** Where clause will retrieve the data based on a condition,
+	Group by clause will combine the specific rows under one name for easy identification.
+
+
+Retrieve the data of student's name, ID and specific gender, where ID between 10 and 40;
+
+
+https://github.com/Prudhvi-69/DBMS-MREM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

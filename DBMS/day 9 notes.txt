@@ -1,0 +1,51 @@
+Create a table and include the columns as ID, name, gender, country, marks, mobile.
+
+Insert values into only 5 columns and mention ID as primary  key
+Do not give any value into the column ID.
+
+Startttttttttttttttttttttttttttttttt................!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+mobile char(10);
+
+
+
+
+
+
+MS SQL : Identity()
+
+MySQL: Auto Increment
+
+
+
+Identity() : It is a builtin function/constraint, which is going to contain 2 parameters.
+
+** It is known for it's default replacement for NULL values.
+
+** 1st parameter is known for the starting value.
+
+** 2nd parameter is known for the incremental value.
+
+** It will update, each time when you insert a new record into the table using insert command.
+
+Syntax : 
+
+	column_name numerical_datatype identity(start_value, incremental_value);
+
+** You can create an identity during the creation of the table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

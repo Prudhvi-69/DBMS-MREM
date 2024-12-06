@@ -1,0 +1,96 @@
+Good ********* Everyone...
+
+
+
+
+
+
+Create a table with the name : Employees
+with the columns : empID, empName, Dept, Salary, DOJ, Location, Gender
+
+** Do not forget to use neccesary constraints.
+** Salary may include something like : Rs. 69058.54  (keep it in mind).
+** First create without float value for salary, then we can modify later.
+** For now, create salary with int only.
+
+
+** After creating the table, now you need to select the departments whose employees salaries are as a total more than 100000.
+
+
+
+** Where is going to retrieve by filtering.
+** Group by is going to combine multiple rows into one.
+
+** You can use only where depending on purpose.
+** You can use only group by clause depending on purpose
+** When you are using both where and group by, remember, always to keep
+where clause at first, then group by after that. It is a sequence which we must follow.
+
+** When you use group by clause, remember to use the grouping column specifically in the retrieving columns.
+
+** When you use group by clause, you can use aggregate functions effectively.
+
+Where : It is going to filter before group by
+
+Group by : It is going to combine multiple rows
+
+Having : It is going to filter after group by
+
+Having : The Having clause is going to filter the rows/results after performing the group by clause. 
+
+** When you are using having, it should not be used individually, rather, it should be merged with the group by clause.
+
+** Having clause should always exist after group by clause.
+
+Syntax : 
+
+		select columns from table group by column having condition; 
+
+
+
+
+
+
+
+
+
+
+
+sum() : it is going to perform an arithmatic operation addition on numerical datatype columns.
+
+**You can use this when you performing group by and also having.
+
+** You cannot use this function when working only with where clause.
+
+Syntax : 		
+				select sum(integer_column) as alias from table group by another_column;
+Ex: 
+				select Dept, sum(salary) from employees group by dept
+
+/*This will display the Total Salary of all employees in each Department*/
+
+pack your bags
+
+i didn't tell anyone to put the bags onto the shoulders yet
+
+just freakinnnnnn packkkkk.......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
