@@ -1,0 +1,56 @@
+JOINS : This concept of joins will be used to extract/retrieve data from multiple tables without actually creating a link between them.
+
+** When you use joins, you dont need to have an explicit link form foreign key to build the relationship.
+
+** Depending on where you want the data from, you can use a different join to retrieve the data from multiple tables.
+
+Types of Joins : 
+1. Inner Join 
+2. Outer Join ___
+								 |
+							1. Left Outer Join
+							2. Right Outer Join
+							3. Full Outer Join
+3. Cross Join 
+
+1. Inner Join : It is a type of join, where we can get the common rows from the both tables, only where the condition is matched.
+
+** It is going to perform the same operation as intersection, to get the common matching records from both the tables.
+
+** It will omit the rows/records which are not matching in both tables.
+
+write about your Example : 
+
+
+
+2. Outer Join 
+
+1. Left Outer Join : It is going to extract/ retrieve the columns from the left side table when the condition is matched.
+
+
+Ex: When you want the data of employees who got promotions.
+
+** If a record is not matched in the right side table, it is going to put a NULL value in that column for the respective row.
+
+2. Right Outer Join : It is going to extract/ retrieve the columns/rows from the right side table when the condition is matched.
+
+** It will retrieve all the rows from the right side table which are matched with the condition but not all rows from the left side table.
+
+** It will keep NULL values in the left side table columns for those didn't matched with the right side table.
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

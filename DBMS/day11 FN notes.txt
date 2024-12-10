@@ -1,0 +1,5 @@
+Create a table with name : Theatre
+Include the columns : Theatre_ID, Theatre_Name, Area, Year, Current_Movie, Top_Movie_AllTime, Current_Boxoffice
+
+
+**Give neccessary constraints..

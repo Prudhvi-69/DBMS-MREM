@@ -1,0 +1,67 @@
+Did we discuss yesterday about
+
+
+Left Outer Join???
+
+Right Outer Join???
+
+Full Outer Join : It is a joining mechanism, where we are going to retrieve all records from left side table and right side table, irrespective of the condition matched.
+
+** It is going to display all rows from the left side table but for the rows where the condition is not matched, it is going to display NULL values on the right side.
+
+** It is going to display all rows from the right side table but for the rows where the condition is not matched, it is going to display NULL values on the left side.
+
+** It is the exact combination of Left Outer Join and Right Outer Join.
+
+
+
+Self Join : It is joining mechanism where it will include only one table, but acts as two different tables.
+
+** You are gonna use two different aliases for the same table, and you are gonna compare with the every other row with the current row.
+
+** The example which we have taken is going to contain the data of employees and their respective mentors in the same organisation.
+
+** From that organisation, if you want to get th group of names of people who are reporting to whom? You can use SELF JOIN.
+
+** It is going to check with the names present in the same table.
+
+
+
+Cross Join : It is a joining mechanism where it is going to extract all rows, from the left side table and all rows from the right side table.
+
+** It is going to retrieve/extract all rows from left side table and match them with the following columns in the right side table.
+
+** Usually it is used under analysis so that Organisations will have an idea on how a certain employee with work under a different department and how their salaries/promotions will be.
+
+** For one employee, it is going to check all the possible promotions from the right side table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+10/12/24
+
+Min():it is an aggrigate function which is going to work on the numerical data type column.
+**it will take first value compare it with the next value in the column.
+**it will return an integer value which is the lowest among all values in the coloumn.
+
+Syntax:select min(column)from table:
+/*gives you the minimum value from the numerical datatype colunm */
+
+Max:it is an aggrigate function which is going to work on the numerical data type on the column.
+**it will take the first value compare it with next value untill the last value in the column 
+**it will return an integer value which is the highest among all values in that columnn.
+Syntax:select max(column)from table.
+/gives you the maximum value from the numerical datatype column/
+
+
+SELECT TOP:
+
+It is a select command modified with an extra clause keyword,know as top.
+**it is used to find the specific number of rows from the table.
+**it can be used on the one column or all column of the table.
+**you need to mentioned the number after the keyword top to get those many number of records in the output.
+
+**it is used to get the result like,top3 rows,top ranks,top3 marks, etc…..
+
+
+
+
+
+
+
+
+
+
+
+
+
+JOINS : it is a concept to retrieve/ extract data from multiple tables at once without having an external link between.
+
+** There is no need of any foreign key constraint to extract data from multiple tables with the help of the concept JOINS.
+
+** Depending on from where you want the data, you can use/choose the type of the joining.
+
+** Types of Joins in SQL : 
+	-> Inner Join 
+	-> Outer Join ___
+							|
+							-> Left Outer Join
+							-> Right Outer Join
+							-> Full Outer Join
+	-> Cross Join
+	-> Self Join
+
+
+** Inner Join : It is a type of join, where the data from both the tables is going to be extracted only when there is a common match based on the condition.
+
+** If the condition is not matched, it is not at all going to retrieve that specific row.
+
+** If the condition is matched, it is going to retrieve columns from right side table and left side table.
+
+** It will bring out the common rows present in both tables, it works in a similar way as intersection in mathematics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

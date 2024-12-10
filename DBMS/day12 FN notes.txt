@@ -1,0 +1,76 @@
+group by : it is a clause used to combine multiple rows of a same table.
+
+** When you use group by, there will be UNIQUE, identified columns.
+
+** You can use aggregate functions with the help of group by, efficiently.
+
+** This will be not used to get the details of individual rows but to get the data of combined rows based on a column.
+
+** When you use group by, you cannot retrieve all the columns but only the column which you are grouping and use defined columns with the output containing from aggregate functions.
+
+
+
+Aggregate functions : These function in SQL are built-in, can be used to perform certain operations where it takes lot of effort,, so these functions can replace your efforts with ease and get the results faster.	
+
+Functions : 
+	-> count()
+	-> sum()
+	-> min()
+	-> max()
+	-> avg()
+
+Count() : it is used to count the number of rows retrieved from a select command.
+
+** It can be used only when you use group by clause.
+** It cannot be used with where clause.
+
+Ex: 
+			select column, count(*) from table group by column;
+
+
+
+SUM(): It is an aggregate function which is going to work on numerical datatype columns, it is going to return an integer value.
+
+** It will add all the values based on the condition from the select command, and it will return the result in integer format.
+
+** It will work on only one column at a time, because you cannot add two different column values at once.
+
+** Sum() is going to take one parameter as the name of the column with numerical datatype.
+
+
+
+AVG() : it is an aggregate function which is going to work on numerical datatype columns.
+
+** It is going to add all the numerical values in the column and find the average value of those added values.
+
+** It will return an integer value without any column name
+
+** If you want to mention any column name for this, use an alias.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
