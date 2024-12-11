@@ -1,0 +1,120 @@
+Inner join : it is a joining mechanism, where it is going to extract/retrieve common columns and rows from the right side table and left side table based on the condition.
+
+** It works in a similar way as intersection works.
+
+** It operates on two tables and extracts the common records from both the tables and display as the output.
+
+** It can be performed even without the help of foreign key relationship.
+
+
+
+
+Outer Join  :
+			|
+			|
+			-> Left Outer Join
+			-> Right Outer Join
+			-> Full Outer Join
+
+
+Left Outer Join : It is a joining mechanism where it is going to retrieve all rows from the left side table and matching rows from the right side table.
+
+** It is going to retrieve the matching records from left side table if the condition is matched.
+
+** If the condition is not matched, it is going to keep NULL values on the right side table.
+
+** Opposite to which Outer join you are going to perform, it is going to keep NULL values.
+
+** In this case, if the condition is not matched, it is going to keep NULL values on the right side table.
+
+
+Right Outer Join :  It is a joining mechanism where it is going to retrieve / extract all rows from the right side table and few from the left side table.
+
+** It will retrieve / extract the rows from the right side table if the condition is matched.
+
+** It will retrieve / extract the rows from the left side table if the condition is matched, if the condition is not matched on the left side table, it is going to keep the NULL values on the left side table.
+
+** The opposite to which join you are performing, it is going to keep the NULL values if the condition is not matched.
+
+** Sntax : 
+				leftSideTable	RIGHT OUTER JOIN rightSideTable ON condition
+
+
+
+Those who are having problem witht the website : byteXL 
+
+Stand and give me the roll_numbers and names : 
+
+1. Ramakrishna - CSD - 6737 - No login into the website
+2. All ECE members (select * from ECE)
+3. Haricharan - CSD - 6742 - No login into the website
+4. Swati - IT - 1208 - No login into the website
+5. Kavitha - IT - 1201 - Invalid credentials
+6. Sai Priya - CSC - 6216 - Invalid credentials
+7. Sindhuja - CSC - 6230 - Invalid Credentials
+8. 
+
+(Those who is having invalid credentials problem, anyone else having same issue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+https://github.com/Prudhvi-69/DBMS-MREM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

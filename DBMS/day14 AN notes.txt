@@ -1,0 +1,97 @@
+Create the tables with the names : 
+
+-> Academics : Data related to students
+-> Accounts    : Data of students related to Money
+-> Examination : Data related to exams,backlogs
+-> Sports    		  : Data related to students who are into Sports
+-> Clubs_in_College : Data related to students who are into clubs
+
+
+
+Question : 
+
+
+Get the data of students whose 
+	CGPA is more than 8,
+	fees is paid upto now, without dues,
+	are in Sports 
+
+-- Gets the data of students whose CGPA is > 8 and also who has paid fees
+
+select A.name, A.ID, E.CGPA, Ac.Status,
+from Academics A, Examination E, Accounts Ac, Sports S
+where E.CGPA > 8 and Ac.Status='paid' 
+
+-- Gets the data from all 3 tables of students who paid fees and CGPA > 8
+select * from Academics, Examination, Accounts,
+where CGPA > 8 and Status='paid' 
+
+
+-- Getting the data by performing joins on multiple tables
+/* Extracting data of students who is having CGPA above 8 and paid fees without dues and also participating in any sports */
+
+
+select A.name, A.ID, E.CGPA, Ac.Status,
+from Academics A 
+
+INNER JOIN Examination E
+ON A.ID=E.ID and E.CGPA > 8
+
+INNER JOIN Accounts Ac
+ON E.ID=Ac.ID and Ac.Status='paid'
+
+INNER JOIN Sports S
+ON S.ID=A.ID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Gets the data of students who are in Sports
+
+select A.name, A.ID, E.CGPA, Ac.Status,
+from Academics A 
+INNER JOIN Sports S
+ON A.ID=S.ID;
+
+
+
+, Examination E, Accounts Ac, Sports S
+where E.CGPA > 8 and Ac.Status='paid' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

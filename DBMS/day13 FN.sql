@@ -36,11 +36,14 @@ ID int primary key, location varchar(20),
 salary int not null, Dept varchar(10) not null,
 DOJ DATE not null);
 
+
+
 insert into employees values('Hemanth',10,'JNTU',28000,'Chef','2019-12-09'),
 ('Nithin',12,'KPHB',78000,'Dev','2022-09-06'),
 ('Umesh',2,'Vangapad',68000,'Resources','2021-10-06'),
 ('Ramakrishna',32,'Erragadda',100200,'Manager','2002-09-06'),
 ('Ajay',24,'Dilsukhnagar',200000,'Driver','2021-09-06'),
+
 ('Dileep',25,'Vijayawada',49000,'Plumber','2020-09-06'),
 ('Bhanu',28,'Jammalamadugu',20000,'Dentist','2021-09-06'),
 ('Pavan PA',39,'Kodad',50000,'Waiter','2020-09-16'),
