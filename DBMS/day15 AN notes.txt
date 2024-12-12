@@ -1,0 +1,48 @@
+Create one table with the name : Employees
+
+Mention multiple columns and insert 11 rows into it.
+
+Find employees and whose salaries are greater than their reporting managers.
+
+** Hint : Use Self Join.
+
+select m1.name,m1.salary,m2.salary from mentor m1 JOIN mentor m2
+ON m1.mID=m2.pID where m1.salary>m2.salary;
+
+
+
+Create a table with the name students containing student data.
+
+Create another table with the name courses and include courses enrolled by students.
+
+Find out students who have enrolled in the same course and top 5 students who are nearby to the college.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

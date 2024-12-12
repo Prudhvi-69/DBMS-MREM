@@ -1,0 +1,64 @@
+Full Outer Join : It is a joining mechanism where it is going to retrieve / extract the all the rows from right side table and left side table without actually checking with any condition.
+
+** Even if there is a condition, you can retrieve the rows/columns from both right side table and left side table.
+
+** For the columns which are not matching with the condition from right side table, left values will be kept NULL.
+
+** For the columns which are not matching witht the condition from left side table, right values will be kept NULL.
+
+** It works in a similar way how the union operation in mathematics will work.
+
+** It will take all the rows from both the tables, but combining the common rows into one from the both the tables.
+
+** It is the exact combination of joining both the Left Outer Join and Right Outer Join.
+
+** Given the example from the tables: employees and promotions, where employees is having 11 rows in total and promotions is having 12 rows in total, but there are 6 common people present in both employees and promotions, so the total number of rows in the output when you perform FULL OUTER JOIN will be 
+
+11 : from employees table (6 common present in promotions)
+5   : from promotions table ( 6 are already present inside employees)
+Total : 17 rows 
+
+
+
+
+Start writing down
+
+Next join is : Cross Join 
+
+
+Cross Join / Cartesian Join : It is a joining mechanism where it is going to retrieve/extract and check the possibilities for each and every row from left side table with every other row in the right side table.
+
+** Externally, it is going to perform left side table rows cross right side table rows
+
+** lst X rst  (10 x 12) = 120 (output)
+
+** if the number of rows in the left side table are 10 and 12 in the right side table, total number of rows in the output will be 10 X 12, resulting in the total of 120 rows.
+
+**If the scenario is related to employees, it is going to used as analysis purpose for checking how an employee from one department will work in another department.
+
+** Ex : HR in company for 5 years with 2Lacks increment, and how they will do in the development team for the same 5 years with what increment?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
