@@ -1,0 +1,64 @@
+You had the yesterday's table??
+
+
+Create tables :
+
+Academics - Data related to students
+Accounts    - Data related to money from students/staff
+Examination - Data related to exams,backlogs of students
+Sports        - Data related to students who are in sports
+Clubs       - Data related to students who are in diff. clubs
+
+
+How many of you have created atleast 2 tables till now?
+
+Raise your hands....???
+
+3 tables??
+
+4??
+
+all 5 finished??
+
+inserted values into them??
+
+after creating the tables, insert atleast 7 to 13 rows into each table..
+
+A question to be solved after creating and inserting values into the table 
+
+
+Question : Extract names of students who are having CGPA more than 7, paid their fees without any dues and participated in any sport event.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

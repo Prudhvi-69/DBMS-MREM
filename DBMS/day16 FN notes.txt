@@ -1,0 +1,57 @@
+Tomorrow's H_W /R_W : Solve atleast 3 queries from the 5 given
+
+
+Walmart : 
+							Report To 
+1 CEO :  Ajay      	0
+2 M1   :  Reshmi  1
+3 M2   :  Pavani   1
+4 E1   :  Swati 		2
+5 E2   : Chandana 3 
+6 SE1 : Nagendar  3
+7 SE2 : Hemanth   5
+8 SE3 : Sai Teja    6
+
+
+   
+
+
+
+
+
+
+Self Join : It is a joining mechanism where it will take and consider only one table.
+
+** The output will be data from that one table only but from multiple instances.
+
+** 1st instance will let you access employee data
+** 2nd instance will let you access their reporting manager's data
+
+** It will take references from the same table to work, link and compare within the table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

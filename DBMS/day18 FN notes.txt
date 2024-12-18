@@ -1,0 +1,47 @@
+tables 
+
+Academics
+Accounts
+Examination
+Sports
+Clubs
+ 	
+
+
+
+
+Extract names of people who are having CGPA above 7, and who paid their fees with a participation into Sports.
+
+CGPA above 7
+
+Reshmi
+Adarsh
+Hemanth
+Nithin
+Pavani
+Bhavana
+
+People with CGPA above 7 and paid fees
+
+Adarsh
+Pavani
+Bhavana
+
+Students with CGPA > 7, fees paid and into sports
+
+Adarsh
+
+
+
+
+
+Extract the details of students with their CGPA, fee details and participation in the clubs and also those who are not in any club, mention NULL.
+
+
+
+
+
+
+
+
+

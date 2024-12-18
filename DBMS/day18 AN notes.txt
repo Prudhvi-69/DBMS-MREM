@@ -1,0 +1,25 @@
+Find people from department of whose average salary is the lowest among all other departments.
+
+
+
+
+** Find people in each department whose salary is the highest in their department.
+
+
+
+
+Extract data of employees who have joined between 
+2023 Jan and 2024 July. 
+
+
+
+
+
+
+
+
+
+
+
+
+

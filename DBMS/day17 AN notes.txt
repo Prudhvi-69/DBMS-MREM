@@ -1,0 +1,49 @@
+** Find people from a department with the department whose average salary is lowest.
+
+
+
+** Find people in each department whose salary is the highest in their department.
+
+
+
+/*Extract data of employees in addition
+to their total number of people in their department*/
+
+select empName,empID,salary,Dept,
+(select count(*) from employees where Dept=E.Dept)
+from employees E;
+
+
+** E.Dept is reffering to the main query and Dept is referring to the nested query.
+
+** Each time a separate person from each Dept will enter and the total number of people 
+in their Department will be counted and added to each person's data.
+
+
+
+
+
+** Find people from a department with the department whose average salary is lowest.
+
+Steps : 
+
+1. Find average salary in every department individually.
+2. Find the Department with lowest average salary.
+3. Extract full data from that Department.
+
+
+
+
+H_W / R_W : 
+
+Find people in each department whose salary is the highest in their department.
+
+
+
+
+
+
+
+
+
+

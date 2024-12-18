@@ -1,0 +1,80 @@
+If till now it is clear with the joins, we can proceed to something next.
+
+If anyone is having doubts, problems, issues, errors while working/understanding the joins.
+
+Raise your hands and we'll finish it off here itself.
+
+
+
+
+
+
+Subqueries :  It is a query inside another query, but it can be used only with a specific clauses.
+
+** It can have multiple queries at once, but each one should be acting as the output for the outside query.
+
+** The outside query is known as main query, the inside query is known as subquery.
+
+** Each subquery output will be checked with the clause present at the end of main query.
+
+** It can be used with the clauses : where, from, select, having, but not with order by.
+
+** Order by requires the name of a column, but a subquery will always return the rows but not the column.
+
+** Subqueries output can be checked with the help of clauses and a conditional operator from the main query.
+
+** The output of the subquery should always be matching with the ending comparison part of the main query.
+
+** Both datatypes should be same and in most of the cases, selecting column from the subquery should be same as ending query in the main query.
+
+
+select * from employees where Dept='HR';
+
+
+MR000HR001	Keshav	HR	50000	2025-08-18	Secunderabad	m
+MR000HR014	Dheeraj	HR	47000	2020-04-25	Attapur				m
+MR000HR022	Sai	        HR	62000	2024-01-15	Dilsukhnagar	    m
+
+
+
+extract names,IDs of people who salary is 
+more than the average salary of all, who are
+belonging to IT dept
+
+
+
+Extract names, IDs and Dept in addition to the total number of people present in each dept.
+
+Name    ID        Dept  Total_in_Dept
+
+Srinivas	7		 	CSE  2 
+Nagesh	8		 	CSE  2
+Rahul	    9		 	IT      1 
+Shiva	   11			ECE  2
+Abhi	       13		 	ECE  2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
