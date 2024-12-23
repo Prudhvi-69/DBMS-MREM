@@ -1,0 +1,69 @@
+How was yesterday's test?
+
+insert into employees values (1278,'dfgvt','df',234);
+
+insert into employees (empid,empName,dept ) values ( 541,'drgfvsdf','aedf');
+
+
+
+
+
+
+INDEX : Indexing in SQL is going to optimize the Database, Tables in the database and the queries while retrieving the data from the database.
+
+** Indexing can be applied to any column in the table.
+
+** The best way to use indexing efficiently can be done, only when you apply it on the most/frequently used column.
+
+** It can be used to ignore every other column while checking and extracting data from the database and focus only on the index to get the data faster than before without indexing.
+
+** Indexing can be used either on one column or multiple depending on the usage and query which you are gonna use.
+
+** Indexing can be used to optimize the database and tables in it depending on the query, while reducing the time, but increasing the space inside the database.
+
+** When an Index is created it takes up an extra space inside the database,tables for faster access and retrieval of data.
+
+Syntax : 
+
+				create INDEX index_name ON table_name (column/set)
+
+Ex : 
+			create INDEX ind_DEPT ON employees (dept);
+
+
+
+
+
+
+
+
+
+
+
+Create a table with atleast 8503 rows and mention a column as Department in it.
+
+Create an INDEX on Department column and retrieve data of people from a specific department.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

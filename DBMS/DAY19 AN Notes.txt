@@ -1,0 +1,50 @@
+
+
+
+every salary
+
+			|->	42700
+			|->	70500
+			|->	62000
+			|->	80070
+
+
+INDEX : It will act as a pointer for faster access on the database / tables.
+
+** Index is used on any column in the table for filtering the rows faster from a database containing HUGE number of records.
+
+** Indexing can be applied either on one column separately or on multiple columns at once, depending on the purpose of extracting the data from the database.
+
+** Indexing on a column will take up some extra space in the database for the column which has been indexed for efficiency.
+
+
+Syntax : 
+				create INDEX index_name ON table_name (column / set);
+Ex : 
+			create INDEX ind_ON_dept ON employees(Dept); 
+
+** It is preferable to create the INDEX on the most frequently used column in the table, instead of least used column.
+
+** If you create an INDEX on a column which is not being used by any query, then it is just a waste of space and time.
+
+** You need to create the INDEX only when you are gonna use that specific column / set of columns while retrieving data from a HUGE Database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

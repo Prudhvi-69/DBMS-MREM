@@ -1,0 +1,38 @@
+To delete the INDEX : 
+
+** deleting an index can be done with the help of the command drop command.
+
+** It will remove the entire content present inside the index in addition to the index name and it's link to the table.
+
+
+
+Syntax : 
+					drop index index_name on table_name ; 
+
+
+
+
+SET NOCOUNT ON
+DECLARE @i INT = 1
+WHILE @i <= 16000
+begin
+	INSERT INTO chinnaEmp() values (
+		@i,
+		'firstName' + CAST(@i to VARCHAR(20)),
+		'lastName' + CAST(@i to VARCHAR(20)),
+
+
+
+);
+END
+
+
+
+
+
+
+
+
+
+
+

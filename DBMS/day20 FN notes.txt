@@ -1,0 +1,26 @@
+How many of you created a table  with HUGE rows?
+
+
+
+
+
+
+
+
+
+To delete the INDEX : 
+
+** You cannot delete directly the index from the database.
+
+** You can delete the index on the index, by mentioning the command, DROP.
+
+Syntax : 
+						drop index index_name ON table_name;
+
+** When you drop an index, the time optimisation will be gone/removed on the table also, making it take the default more time to retrieve the data.
+
+** If you want to make it retrieve faster, you need to create the index again on the required column(s) on the table you want to optimize;
+
+
+
+

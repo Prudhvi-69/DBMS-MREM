@@ -1,0 +1,42 @@
+Data Abstraction : Keeping an extra layer of security or protection on the data inside the database can be referred as Data Abstraction in Databases.
+
+** It will be useful when you want restrict people/person from accessing the full content inside the Database, and make them have access/authority over a specific part of the data.
+
+** This process of hiding/ securing / protecting the data can be achieved in DBMS with the help of the concept called : VIEWS.
+	
+
+Views : It is a way to represent and extract the data from the table(s) but that extracted data cannot be stored anywhere physically.
+
+** It can be used as a virtual data storage space to work and restrict the data access for specific users and commands.
+
+** You can create views based out of certain conditions and extract the data from that view and put a filter on it for further modifications.
+
+** Most importantly views can be created from the output of a select query on one more tables.
+
+Syntax : 
+					create view view_name as select columns from table_name;
+
+Ex : 
+		create view top_five as select top 5 * from employees 
+		order by salary desc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

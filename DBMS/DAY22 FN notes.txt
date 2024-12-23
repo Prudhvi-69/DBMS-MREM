@@ -1,0 +1,41 @@
+If you cant face problems with solution??
+
+Then create the problems for solutions.....
+
+
+
+
+
+
+
+
+
+
+
+SKILL ODYSSEY
+
+Data Abstraction : Hiding something which is not needed for everyone to see/check.
+
+** In the concept of the Databases, the protection of data is required, where it has to restrict people from accessing the unwanted/restricted data by everyone.
+
+** That restriction can be done in SQL with a concept called, VIEWS.
+
+Views : Views are used to create an instance of database but it is not physically preset inside the memory.
+
+** Views are virtual representation of the existing data present inside the database.
+
+** Views are opted to known as the extra layer of security on the data present inside the database.
+
+** Views can be created by the output of a select command.
+
+** Views can be applied on single tables and also multiple tables at once by joining them together.
+
+
+
+
+
+
+
+
+
+

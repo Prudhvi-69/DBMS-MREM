@@ -1,0 +1,8 @@
+Create a table with 58700 rows and insert values into it 
+and name the table as STUDENT_DATA
+
+Keep the neccessary constraints.
+
+Mention a column with Department name and include around 10 Departments while inserting the data into the table.
+
+
