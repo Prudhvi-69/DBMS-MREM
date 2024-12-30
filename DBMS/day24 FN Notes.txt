@@ -1,0 +1,113 @@
+Functions : It is a stored procedure in SQL, where it will be containing the code execute either on the table or off the table.
+
+** Main advantage of functions is, code reusability and time efficient compared to a normal query.
+
+** It is going to store the output in it and can be called whenever needed by the help of the command : EXEC (execuute).
+
+** It is going to take input parameters into the code/function, which you can use inside the code.
+
+** There will be no output parameters for a function in SQL.
+
+** A function in SQL, must always return a value/scalar(table).
+
+
+Syntax for creating :
+ 
+					create function function_name (parameter_name datatype)					
+					returns return_datatype
+					begin
+								-- code of the function
+								return value
+					end	
+
+Example function for adding two values taken as parameters into the function: 
+
+				create function addition(@value1 int, @value2 int)
+				returns int
+				begin
+							return @value1 + @value2
+				end	
+				
+Syntax for calling the function : 
+				
+				1st scenario : when the function's return value is only one exact value (not table)
+	
+				select dbo.function_name( parameters, if applicable );
+
+Ex : Calling the addition function 
+
+				select dbo.addition( 10,59 ); 
+
+
+Procedures : It is also known as stored procedure where you write some logic for extracting the data from the table or tables.
+
+** You can retreive whenever needed from a procedure instead of writing the query.
+
+** The main difference between a function and a procedure will be, the function must always return a value, where as a procedure may not.
+
+** Procedures will also have an advantage of passing the output parameter where it is not present in the functions(allows input parameters only).
+
+** Procedures have to be runned by the command : EXEC (execute).
+
+** You can store multiple rows of a table with multiple columns inside a procedure.
+
+Syntax for creating a procedure : 
+					
+					create procedure procedure_name 
+					input parameters (if applicable)
+					output parameters (if applicable)	
+					AS
+					begin 
+								-- query inside the procedure
+					end
+
+
+executing the procedure : 
+					
+					EXEC procedure_name
+
+
+deleting the procedure : 
+			
+					drop procedure procedure_name
+		
+
+Create a function to add all salaries of employees table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

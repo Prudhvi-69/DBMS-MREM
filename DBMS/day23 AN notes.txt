@@ -1,0 +1,15 @@
+create a VIEW on the tables
+
+Academics   : Name, ID, Location 
+Accounts      : Total_Fees, Fee_Status
+Examination : Number of Backlogs, CGPA
+Sports   			 : Sport_Name
+Clubs 				 : Club_Name, Role
+
+Data in the VIEW should be from all 5 tables.....
+
+
+
+
+
+

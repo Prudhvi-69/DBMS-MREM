@@ -1,0 +1,20 @@
+SQL Views 
+
+
+Create a view on the tables 
+Academics       -- Name, ID, CGPA, Location
+Accounts          -- Total_Fee, Fee_status
+Examinations   -- No_of_Backlogs
+Sports 			    -- Sport_Name
+Clubs					-- Club_Name, Role_in_Club 
+
+with Data from Academics, Accounts, Examinations, Sports( if applicable) and Clubs (if applicable).
+
+Every student's data should be in the VIEW.
+
+
+
+
+
+
+
