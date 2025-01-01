@@ -1,0 +1,50 @@
+# Applicable for students......
+
+if !boys == false : 
+	stay.silent()
+
+elif !girls != false:
+	stay.silent()
+
+else:
+	youCan.talk()
+
+
+
+
+
+Trigger : It is a stored procedure, which is going to activate when an event occurs.
+
+** Event can be, an insertion statement, any updation statement, or it can be any deletion statement.
+	
+** Triggers can be accessed through the select command.
+
+** You can store the data inside the trigger, based on the events occuring on the table.
+
+** It is used for storing auditing data, log data, records of updations, modifications, additional things that will make changes on the data in the table.
+
+** Consider something like, storing daily attendance of students, or every semester each subject marks log data.
+
+** These kind of things require, the data from a previously existing table and the changes been made in that table will be recorded in an extra table for auditing purpose.
+
+** For storing the trigger data, we need to create an extra table.
+
+
+Syntax :
+
+					create trigger trg_name ON table_name AFTER 'event'
+					AS Begin
+					
+						-- trigger code
+
+					END;
+ 
+
+
+
+
+
+
+
+
+

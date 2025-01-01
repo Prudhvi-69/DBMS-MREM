@@ -1,0 +1,14 @@
+Input 1 : Size of list
+Input 2 : Take list of integers
+Input 3 :  A value less than or equals to size of list
+Output : Max sum with 3rd input values
+
+Ex : 
+Input 1 : 5
+Input 2 : [-11,-30,15,-70,90]
+Input 3 : 3
+
+Output 1 : 190 
+Output 2 : 30 70 90 
+** T&C apply, do not sort the LIST, as it takes more time again for computing.
+
